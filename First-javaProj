@@ -1,7 +1,12 @@
+import java.util.*;
 class Dem{
 public static void main(String args[])
 {
-System.out.println("hellow-world")
+System.out.println("hellow-world");
+Scanner sc = new Scanner(System.in);
+String msg = sc.next();
+System.out.print(msg);
+
 }
 
 }
